@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  background-color: pink;
+  padding: 10%;
+  border-radius: 25px;
+  display: block;
+  margin: 0 0 auto;
+  justify-content: center;
+}
