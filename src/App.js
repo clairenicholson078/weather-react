@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Searchengine from "./Searchengine";
 function App() {
