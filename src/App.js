@@ -1,11 +1,21 @@
 import "./App.css";
 import Searchengine from "./Searchengine";
-function App() {
+import "bootstrap/dist/css/bootstrap.css";
+
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Searchengine />
+        <div className="container">
+          <h1> Weather </h1>
+          <div className="row">
+            <div className="col-md-6">
+              <Searchengine />
+            </div>
+          </div>
+        </div>
       </header>
+      
     </div>
   );
 }
