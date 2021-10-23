@@ -1,23 +1,14 @@
 import "./App.css";
-import Searchengine from "./Searchengine";
+import Weather from "./Weather";
 import "bootstrap/dist/css/bootstrap.css";
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="container">
-          <h1> Weather </h1>
-          <div className="row">
-            <div className="col-md-6">
-              <Searchengine />
-            </div>
-          </div>
-        </div>
-      </header>
-      
+      <header className="App-header"> </header>
+      <div className="container shadow-lg">
+        <Weather defaultCity="London" />
+      </div>
     </div>
   );
 }
-
-export default App;

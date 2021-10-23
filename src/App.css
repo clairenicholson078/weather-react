@@ -1,6 +1,23 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  margin: 2% !important;
+}
+.container {
+  padding: 2% !important;
+}
+.btn-primary {
+  color: #fff !important;
+  background-color: #7474c1 !important;
+  border-color: #7474c1 !important;
+}
+.container.shadow-lg {
+  background-color: #ededed;
+}
+h4,
+.h4 {
+  font-size: 1rem;
+  line-height: 1rem;
 }
 
 ul {
@@ -11,4 +28,37 @@ ul {
   display: block;
   margin: 0 0 auto;
   justify-content: center;
+}
+.row {
+  background-color: #ededed;
+}
+
+.col-md-8 forecast {
+  background-color: #ededed;
+}
+.WeatherForecast {
+  background-color: #ededed;
+}
+.container shadow-lg {
+  background-color: #ededed;
+}
+
+.WeatherForecast-temperature-min {
+  width: 12vw;
+}
+.WeatherForecast-temperature-max {
+  width: 12vw;
+}
+.WeatherForecast-temperatures {
+  width: 12vw;
+}
+.WeatherForecast-day {
+  width: 12vw;
+}
+
+.col-md-8.forecast {
+  padding-top: 2vw;
+}
+.col-md-4 {
+  text-align: left;
 }
