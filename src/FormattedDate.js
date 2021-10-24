@@ -25,7 +25,7 @@ export default function FormattedDate(props) {
     seconds = `0${seconds}`;
   }
   return (
-    <p>
+    <p class="formatteddate">
       {day} {hours}:{minutes}:{seconds}
     </p>
   );

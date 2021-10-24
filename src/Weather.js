@@ -65,12 +65,14 @@ export default function Weather(props) {
         </form>
         <div className="row d-flex flex-row">
           <div className="col-md-4">
-            <FormattedDate date={weatherData.date} />
+
+                                    <FormattedDate date={weatherData.date} />
 
             <WeatherInfo data={weatherData} />
+
           </div>
           <div className="col-md-8 forecast">
-            <WeatherForecast coordinates={weatherData.coordinates} />
+            <WeatherForecast coordinates={weatherData.coordinates} /> 
           </div>
         </div>
       </div>

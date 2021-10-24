@@ -9,6 +9,7 @@ export default function Weatherinfo(props) {
       <h1>
         {" "}
         {props.data.city} | <b> {props.data.roundedtemp}°C </b>
+        
       </h1>
       <p>
         <br />

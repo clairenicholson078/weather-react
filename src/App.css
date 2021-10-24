@@ -14,10 +14,21 @@
 .container.shadow-lg {
   background-color: #ededed;
 }
+
+.formatteddate{
+  color: rgba(0, 0, 0, 0.5);
+}
 h4,
 .h4 {
   font-size: 1rem;
   line-height: 1rem;
+}
+hr{
+  color:#ededed;
+}
+a {
+color: #7474c1!important;
+text-decoration: none!important;
 }
 
 ul {
