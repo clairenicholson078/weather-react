@@ -60,6 +60,10 @@ ul {
 .WeatherForecast-temperature-max {
   width: 12vw;
 }
+img, svg {
+padding-top: 20px;
+
+}
 .WeatherForecast-temperatures {
   width: 12vw;
 }
